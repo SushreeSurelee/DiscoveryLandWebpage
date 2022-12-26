@@ -34,6 +34,15 @@ body {
    margin-top: -20px;
 }
 
+.top-left a { 
+   text-decoration: none; 
+   color: white; 
+}
+.top-left a:visited { 
+   text-decoration: none; 
+   color: white; 
+}
+
 .top-right {
    width: 43vw;
    display: flex;
@@ -44,6 +53,9 @@ body {
    font-size: 10px;
    border: 0px solid red;
 }
+.top-right a:visited { 
+   color: white; 
+  }
 
 .bottom-left {
    margin-top: 70px;
